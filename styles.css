@@ -1,0 +1,33 @@
+body {
+    background-color: #fffbf7;
+}
+h1 {
+    color: #025157;
+}
+
+.textodebajo {
+    color: #46484c;
+}
+
+.input1 {
+    border: 1px solid #b6b6b6;
+    padding: 6px 20px;
+    width: 60%;
+    max-width: 250px;;
+}
+
+.boton1 {
+    background-color: #025157;
+    color: #fff;
+    border: none;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    padding: 6px 20px;
+    margin-left: -10px;
+
+}
+
+.promocional{
+    color: #8b8b8bcc;
+
+}
