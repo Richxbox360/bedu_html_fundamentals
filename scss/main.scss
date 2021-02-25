@@ -95,7 +95,107 @@
         }
     
     }
-
     
+    .home-people {
+        background-image: url("https://getmatcha.com/wp-content/themes/getmatcha/css/../img/home_people.png");
+        background-position: center;
+        background-size: cover;
+        background-color: white;
+        height: 350px;
+        width: 100%;
+        margin: 20px 0 0 0;
+        padding: 0;
+    }
+
+    .try-it {
+        padding: 5% 5% 2%;
+        background-color: #96d178;
+        margin-top: -30px;
+
+        & > h2 {
+            font-family: $font-title;
+            font-size: 60px;
+            color: $dark-green-title;
+            font-weight: 500px;
+        }
+
+        form {
+            input {
+                @extend %base-email;
+            }
+
+            button {
+                @extend %base-button;
+            }
+        }
+
+        p {
+            color: #ffffff;
+            font-size: 14px;
+            font-weight: 500;
+
+            strong {
+                font-weight: bolder;
+            }
+        }
+    }
+    
+}
+
+.cta {
+    padding: 5% 10% 0;
+    margin: 0;
+    max-width: unset;
+
+    .box {
+        background-color: #025157;
+        color: #fff;
+        padding: 5%;
+        border-radius: 10px;
+
+        & > div {
+            & > h2 {
+                font-family: $font-title;
+                font-size: 34px;
+                color: $white;
+                max-width: 340px;
+                font-weight: 500px;
+            }
+            & > p {
+                color: #fff;
+                margin-top: 15px;
+                line-height: 25px;
+                font-weight: 400;
+                font-size: 17px;
+
+                a {
+                    color: #6abf4b;
+                    text-decoration: none;
+                }
+            }
+        }
+
+        .col2 {
+            form {
+                input {
+                    @extend %base-email;
+                }
+    
+                button {
+                    @extend %base-button;
+                    background-color: #6abf4b;
+                }
+            }
+            p {
+                color: #b3cbcd;
+                margin-top: 15px;
+                font-size: 14px;
+                font-weight: 500;
+                line-height: 1.6;
+                max-width: 340px;
+            }
+        }
+
+    }
 }
 

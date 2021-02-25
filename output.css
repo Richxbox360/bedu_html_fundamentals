@@ -4,6 +4,24 @@
   font-weight: 800;
 }
 
+.blog .try-it form input, .cta .box .col2 form input {
+  border-top-left-radius: 6px;
+  border-bottom-left-radius: 6px;
+  height: 45px;
+  margin-right: -5px;
+  border: 1px solid #c6c6c6;
+  padding: 0 5px;
+}
+
+.blog .try-it form button, .cta .box .col2 form button {
+  color: #fff;
+  background-color: #025157;
+  height: 47px;
+  border-top-right-radius: 6px;
+  border-bottom-right-radius: 6px;
+  border: none;
+}
+
 .blog {
   background-color: #ffffff;
   max-width: unset;
@@ -69,6 +87,76 @@
 .blog .author > img {
   border-radius: 50%;
   height: 35px;
+}
+.blog .home-people {
+  background-image: url("https://getmatcha.com/wp-content/themes/getmatcha/css/../img/home_people.png");
+  background-position: center;
+  background-size: cover;
+  background-color: white;
+  height: 350px;
+  width: 100%;
+  margin: 20px 0 0 0;
+  padding: 0;
+}
+.blog .try-it {
+  padding: 5% 5% 2%;
+  background-color: #96d178;
+  margin-top: -30px;
+}
+.blog .try-it > h2 {
+  font-family: "Alegreya", serif;
+  font-size: 60px;
+  color: #025157;
+  font-weight: 500px;
+}
+.blog .try-it p {
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: 500;
+}
+.blog .try-it p strong {
+  font-weight: bolder;
+}
+
+.cta {
+  padding: 5% 10% 0;
+  margin: 0;
+  max-width: unset;
+}
+.cta .box {
+  background-color: #025157;
+  color: #fff;
+  padding: 5%;
+  border-radius: 10px;
+}
+.cta .box > div > h2 {
+  font-family: "Alegreya", serif;
+  font-size: 34px;
+  color: #ffffff;
+  max-width: 340px;
+  font-weight: 500px;
+}
+.cta .box > div > p {
+  color: #fff;
+  margin-top: 15px;
+  line-height: 25px;
+  font-weight: 400;
+  font-size: 17px;
+}
+.cta .box > div > p a {
+  color: #6abf4b;
+  text-decoration: none;
+}
+.cta .box .col2 form button {
+  background-color: #6abf4b;
+}
+.cta .box .col2 p {
+  color: #b3cbcd;
+  margin-top: 15px;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.6;
+  max-width: 340px;
 }
 
 /*# sourceMappingURL=output.css.map */
